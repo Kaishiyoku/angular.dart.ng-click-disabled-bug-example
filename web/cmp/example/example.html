@@ -1,0 +1,29 @@
+<section example-ctrl>
+  <div class="container">
+    <h1>ng-click with ng-disabled button example</h1>
+
+    <p>
+      <a id="clickButton" href="" ng-click="clickFunction()" ng-disabled="isDisabled" class="btn btn-primary">
+        Click Me!
+      </a>
+    </p>
+
+    <div id="buttonStatus" class="alert alert-info">
+      times clicked: {{timesClicked}}
+    </div>
+
+    <p>The above button is disabled but its click function is called anyway (only Javascript compiled code is affected).</p>
+
+    <p>
+      <a href="" ng-click="enableButton()" class="btn btn-default btn-sm">
+        enable button
+      </a>
+
+      <a href="" ng-click="disableButton()" class="btn btn-default btn-sm">
+        disable button
+      </a>
+
+      button disabled: {{isDisabled}}
+    </p>
+  </div>
+</section>

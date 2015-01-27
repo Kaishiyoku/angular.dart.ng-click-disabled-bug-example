@@ -1,0 +1,9 @@
+[ng-cloak],
+.ng-cloak,
+.ng-hide {
+  display: none !important;
+}
+
+#clickButton {
+  pointer-events: all !important;
+}
