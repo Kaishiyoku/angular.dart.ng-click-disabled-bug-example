@@ -8,7 +8,6 @@ import 'dart:html';
 class ExampleController {
   bool isDisabled = true;
   int timesClicked = 0;
-  String popoverText = "test";
 
   ExampleController();
 
