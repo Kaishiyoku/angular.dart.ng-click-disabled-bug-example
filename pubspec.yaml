@@ -5,7 +5,7 @@ environment:
   sdk: '>=0.8.10+6 <2.0.0'
 dependencies:
   browser: any
-  angular: 1.0.0
+  angular: 1.1.0
   web_components: ">=0.3.4 <0.4.0"
 dev_dependencies:
 transformers:
